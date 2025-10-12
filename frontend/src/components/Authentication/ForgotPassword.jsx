@@ -16,10 +16,10 @@ const ForgotPassword = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto  p-6 rounded-2xl">
-      <h2 className="text-xl text-center text-primary mb-6">
-        Forgot Password
-      </h2>
+    <div className="max-w-md mx-auto mt-10 md:mt-20 rounded-2xl">
+     <h2 className="text-3xl text-center text-primary mb-6 font-bold">
+          Forgot Password
+        </h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="email"

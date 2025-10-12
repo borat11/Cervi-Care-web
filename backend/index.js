@@ -18,8 +18,10 @@ app.use(
 );
 
 const auth = require("./routes/auth/auth");
+const feedback = require("./routes/feedback/feedback");
 
 app.use("/api/auth", auth);
+app.use("/api/feedback", feedback);
 
 
 const authMiddleware = require("./middleware/authMiddleware");

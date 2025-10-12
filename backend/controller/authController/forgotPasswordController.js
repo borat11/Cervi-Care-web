@@ -42,7 +42,7 @@ const forgotPasswordController = async (req, res) => {
 
     await sendEmail(user.email, "CerviCare – Password Reset Request", emailHTML);
 
-    return res.json({ message: "If this email exists, a reset link has been sent." });
+    return res.json({ message: " Reset link has been sent." });
   } catch (err) {
     console.error("Forgot password error:", err);
     return res.status(500).json({ error: err.message });

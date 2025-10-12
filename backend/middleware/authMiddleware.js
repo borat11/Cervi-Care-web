@@ -1,6 +1,5 @@
 const { verifyToken } = require("../helper/jwtHelper");
 const User = require("../models/user");
-
 const authMiddleware = async (req, res, next) => {
   try {
     // Get token from Authorization header

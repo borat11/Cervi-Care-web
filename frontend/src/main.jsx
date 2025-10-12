@@ -8,6 +8,9 @@ import "react-toastify/dist/ReactToastify.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
     <App />
-    <ToastContainer position="top-right" autoClose={2000} />
-  </>
+<ToastContainer
+  position="top-center"
+  theme="colored"
+  autoClose={3000}
+/>  </>
 );
